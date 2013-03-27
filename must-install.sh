@@ -84,12 +84,6 @@ sudo apt-get -y install nautilus-dropbox
 # Meld Diff Viewer
 sudo apt-get -y install meld
 
-# Avogadro
-sudo apt-get -y install avogadro
-
-# Scilab
-sudo apt-get -y install scilab
-
 # Simple Scan
 sudo apt-get -y install simple-scan
 

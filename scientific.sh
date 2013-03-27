@@ -25,15 +25,6 @@
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get update
 
-#echo "Instaled linux kernels:"
-#dpkg -l linux-*
-#dpkg -l linux-* | awk '/^ii/{ print $2 }'
-
-#echo "Actual kernel:"
-#uname -r | cut -f1,2 -d"-"
-
-# echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf; sudo apt-get -y update
-
 echo "================Intalling Software================"
 
 # Avogadro
