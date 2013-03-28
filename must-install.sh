@@ -113,6 +113,12 @@ sudo apt-get -y install ubuntu-restricted-extras
 # Ejecter: to easily and safely unmount external devices
 sudo apt-get -y install ejecter
 
+#  text file conversion utility that converts ASCII and Unicode UTF-8 files
+# between the MSDOS (or Windows) format, which traditionally have CR/LF
+# (carriage return/line feed) pairs as their new line delimiters, and the
+# Unix format, which usually have LFs (line feeds) to terminate each line.
+udo apt-get -y install tofrodos
+
 #### Unity Utils ####
 
 # Unity utilities lens
