@@ -33,4 +33,7 @@ sudo apt-get -y install avogadro
 # Scilab
 sudo apt-get -y install scilab
 
+# Ps to Edit
+sudo apt-get -y install pstoedit
+
 echo "================Done================"
