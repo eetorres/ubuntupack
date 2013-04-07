@@ -94,7 +94,7 @@ sudo apt-get -y install libxft-dev
 # Everything you need to build Motif applications with Open Motif.
 # Includes header files, static libraries, the manual pages for the Motif API
 # and uil (user interface language compiler)
-sudo apt-get install -y libmotif-dev
+sudo apt-get -y install libmotif-dev
 
 
 # GtkGLExt provides the GDK objects to support OpenGL rendering in GTK+,
