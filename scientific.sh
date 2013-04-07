@@ -4,7 +4,6 @@
 #
 # Don't hesitate to contact me for any question, suggestion,
 # modification or bug. Get the latest version at:
-# http:#msmvtl.sourceforge.net
 #
 # This library is free  software;  you  can  redistribute  it and/or
 # modify it  under  the  terms  of  the   GNU Library General Public
@@ -25,7 +24,7 @@
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get update
 
-echo "================Intalling Software================"
+echo "================Installing Software================"
 
 # Avogadro
 sudo apt-get -y install avogadro

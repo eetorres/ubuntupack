@@ -4,7 +4,6 @@
 #
 # Don't hesitate to contact me for any question, suggestion,
 # modification or bug. Get the latest version at:
-# http:#msmvtl.sourceforge.net
 #
 # This library is free  software;  you  can  redistribute  it and/or
 # modify it  under  the  terms  of  the   GNU Library General Public
@@ -34,7 +33,7 @@ sudo apt-get update
 
 # echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf; sudo apt-get -y update
 
-echo "================Intalling Software================"
+echo "================Installing Software================"
 
 # BackInTime
 sudo apt-get -y install backintime-gnome
@@ -42,17 +41,11 @@ sudo apt-get -y install backintime-gnome
 # Texmaker
 sudo apt-get -y install texmaker
 
-# kile 
-sudo apt-get -y install kile
-
 # Chromium
 sudo apt-get -y install chromium-browser
 
 # XFig
 sudo apt-get -y install xfig
-
-# VLC
-sudo apt-get -y install vlc
 
 # DjView
 sudo apt-get -y install djview
@@ -63,37 +56,20 @@ sudo apt-get -y install gimp
 # Gmount-iso
 sudo apt-get -y install gmountiso
 
-# Desktop recorder
-sudo apt-get -y install gtk-recordmydesktop
-
 # gFTP
 sudo apt-get -y install gftp
 
 # GNOME Do
-sudo apt-get -y install gnome-do
+# sudo apt-get -y install gnome-do
 
 # Transmission
 sudo apt-get -y install transmission
-
-# WinFF
-sudo apt-get -y install winff
 
 # DropBox
 sudo apt-get -y install nautilus-dropbox
 
 # Meld Diff Viewer
 sudo apt-get -y install meld
-
-# Simple Scan
-sudo apt-get -y install simple-scan
-
-# XSane
-sudo apt-get -y install xsane
-sudo apt-get -y install gscan2pdf
-sudo apt-get -y install gv gocr
-
-# Okular
-sudo apt-get -y install okular
 
 # Shutter
 sudo apt-get -y install shutter

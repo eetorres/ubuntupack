@@ -24,27 +24,25 @@
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get update
 
-# FreeCAD
-sudo apt-get -y install freecad
+# WinFF
+sudo apt-get -y install winff
 
-# LibreCAD
-sudo apt-get -y install librecad
+# VLC
+sudo apt-get -y install vlc
 
-# QCAD
-sudo apt-get -y install qcad
+# Desktop recorder
+sudo apt-get -y install gtk-recordmydesktop
 
-# KiCAD
-sudo apt-get -y install kicad
+# Simple Scan
+sudo apt-get -y install simple-scan
 
-#PyCAD
-sudo apt-get -y install pythoncad
+# XSane
+sudo apt-get -y install xsane
+sudo apt-get -y install gscan2pdf
+sudo apt-get -y install gv gocr
 
+# Okular
+sudo apt-get -y install okular
 
-# OpenSCAD
-sudo add-apt-repository ppa:chrysn/openscad
-sudo apt-get update
-sudo apt-get -y install openscad
-
-# Dependencies
-
-sudo apt-get -y install python-gtkglext1
+# kile
+sudo apt-get -y install kile
