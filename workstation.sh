@@ -124,7 +124,6 @@ sudo apt-get -y install g++-multilib libc6-dev-i386 lib32z1-dev
 #==================================
 # compile FLTK for win32
 sudo apt-get -y install mingw-w64
-sudo apt-get -y install wine
 # ./configure --host=i686-w64-mingw32 --build=x86_64-linux-gnu --prefix=/usr/i686-w64-mingw32
 
 # ftgl-2.1.3~rc5-win32 $ ./configure --prefix=/usr --host=i686-w64-mingw32 --build=x86_64-linux-gnu --with-gl-inc="/usr/i686-w64-mingw32/include" --with-gl-lib="-L/usr/i686-w64-mingw32/lib -lglu32 -lopengl32 -lole32 -luuid -lcomctl32 -mwindows" CXXFLAGS="-I/usr/include"

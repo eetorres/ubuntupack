@@ -83,6 +83,18 @@ sudo apt-get -y install gtk2-engines-pixbuf
 # GConf-Editor
 sudo apt-get -y install gconf-editor
 
+# Run Windows applications on Linux (http://www.winehq.org/)
+echo -n "Do you want to install the latest wine? [y/n]: "
+read
+if [ "$REPLY" = "y" ]
+then
+  sudo add-apt-repository -y ppa:ubuntu-wine/ppa
+  sudo apt-get -y update
+  sudo apt-get -y install wine1.5
+else
+  sudo apt-get -y install wine
+fi
+
 # Install Ubuntu Restricted Extras
 sudo apt-get -y install ubuntu-restricted-extras
 

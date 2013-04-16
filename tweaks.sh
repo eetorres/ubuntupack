@@ -32,7 +32,7 @@ sudo apt-get install gnome-activity-journal
 sudo apt-get install psensor
 # pdkg-reconfigure hddtemp
 
-sudo apt-add-repository ppa:alexmurray/indicator-sensors 
+sudo apt-add-repository ppa:alexmurray/indicator-sensors
 sudo apt-get update
 sudo apt-get install indicator-sensors
 
