@@ -24,6 +24,9 @@
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get update
 
+#JabRef
+sudo apt-get -y install jabref
+
 # WinFF
 sudo apt-get -y install winff
 

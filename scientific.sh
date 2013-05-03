@@ -35,4 +35,7 @@ sudo apt-get -y install scilab
 # Ps to Edit
 sudo apt-get -y install pstoedit
 
+# Arduino IDE
+sudo apt-get -y install arduino
+
 echo "================Done================"
