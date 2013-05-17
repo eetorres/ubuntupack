@@ -76,8 +76,6 @@ sudo apt-get -y install libx11-dev libxrandr-dev
 # OpenGL:
 sudo apt-get -y install freeglut3-dev
 
-
-
 # The OpenGL Extension Wrangler, GLEW for short, is a library that handles
 # initiliazation of OpenGL extensions in a portable and simple way.  Once the
 # program initializes the library and checks the availability of extensions, it
@@ -89,6 +87,11 @@ sudo apt-get -y install libglew1.5-dev
 sudo apt-get -y install libjpeg-dev libpng-dev libz-dev
 
 # FreeType-based font drawing library for X (development files)
+# Xft provides a client-side font API for X applications, making the
+# FreeType font rasterizer available to X clients. Fontconfig is used
+# for font specification resolution. Where available, the RENDER
+# extension handles glyph drawing; otherwise, the core X protocol is
+# used. This package provides a static library and C header files.
 sudo apt-get -y install libxft-dev
 
 # Everything you need to build Motif applications with Open Motif.
@@ -101,12 +104,6 @@ sudo apt-get -y install libmotif-dev
 # and GtkWidget API add-ons to make GTK+ widgets OpenGL-capable.
 # needed by GCAM
 # sudo apt-get -y install libgtkglext1-dev
-
-# Xft provides a client-side font API for X applications, making the
-# FreeType font rasterizer available to X clients. Fontconfig is used
-# for font specification resolution. Where available, the RENDER
-# extension handles glyph drawing; otherwise, the core X protocol is
-# used. This package provides a static library and C header files.
 
 #Install Xinerama
 sudo apt-get -y install libxinerama-dev

@@ -115,4 +115,7 @@ sudo apt-get -y install unity-lens-utilities
 # xfig fonts
 sudo apt-get -y install gsfonts-x11
 
+# Spanish spell check
+sudo apt-get -y install myspell-es
+
 echo "================Done================"
