@@ -99,6 +99,10 @@ sudo apt-get -y install libxft-dev
 # and uil (user interface language compiler)
 sudo apt-get -y install libmotif-dev
 
+# This package contains the header files and static libraries for the XForms library.
+# Install this package if you want to develop programs using the XForms library.
+sudo apt-get -y install libforms-dev
+
 
 # GtkGLExt provides the GDK objects to support OpenGL rendering in GTK+,
 # and GtkWidget API add-ons to make GTK+ widgets OpenGL-capable.
