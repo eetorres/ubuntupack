@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# NOTE: Dont use this sript, use the new scripts for your Ubuntu LTS
+# kept in the repository for reference only
+
 # Copyrigth 2007-2013 by Edmanuel Torres, eetorres@gmail.com
 #
 # Don't hesitate to contact me for any question, suggestion,
