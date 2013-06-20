@@ -49,3 +49,6 @@ sudo apt-get -y install okular
 
 # kile
 sudo apt-get -y install kile
+
+# It allows you to download a World Wide Web site from the Internet to a local directory
+sudo apt-get -y install httrack
