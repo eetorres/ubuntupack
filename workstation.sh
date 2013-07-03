@@ -121,14 +121,17 @@ sudo apt-get -y install libxinerama-dev
 
 #==================================
 # compile FLTK for Linux x86
+#sudo apt-get -y install libjpeg62-dev
 #libc6-dev-i386, lib32z1-dev, g++-multilib
 sudo apt-get -y install g++-multilib libc6-dev-i386 lib32z1-dev
-# ./configure --with-archflags=-m32
+
 
 #==================================
+# compile FLTK for i686
+# ./configure --with-archflags=-m32
 # compile FLTK for win32
-sudo apt-get -y install mingw-w64
 # ./configure --host=i686-w64-mingw32 --build=x86_64-linux-gnu --prefix=/usr/i686-w64-mingw32
+sudo apt-get -y install mingw-w64
 
 # ftgl-2.1.3~rc5-win32 $ ./configure --prefix=/usr --host=i686-w64-mingw32 --build=x86_64-linux-gnu --with-gl-inc="/usr/i686-w64-mingw32/include" --with-gl-lib="-L/usr/i686-w64-mingw32/lib -lglu32 -lopengl32 -lole32 -luuid -lcomctl32 -mwindows" CXXFLAGS="-I/usr/include"
 
