@@ -38,4 +38,8 @@ sudo apt-get -y install pstoedit
 # Arduino IDE
 sudo apt-get -y install arduino
 
+# Python
+
+sudo -y apt-get install python-numpy python-scipy python-matplotlib python-yaml
+
 echo "================Done================"

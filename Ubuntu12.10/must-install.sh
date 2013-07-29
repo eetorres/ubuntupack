@@ -41,6 +41,8 @@ sudo apt-get -y install backintime-gnome
 # Texmaker
 sudo apt-get -y install texmaker
 
+sudo apt-get -y install texlive-fonts-recommended
+
 # Chromium
 sudo apt-get -y install chromium-browser
 
