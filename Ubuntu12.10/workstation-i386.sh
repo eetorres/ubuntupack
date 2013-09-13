@@ -49,7 +49,7 @@ sudo apt-get install libxext-dev:i386
 #sudo apt-get -y install libxrandr-dev:i386
 
 # OpenGL:
-#sudo apt-get -y install freeglut3-dev
+#sudo apt-get -y install freeglut3-dev:i386
 
 # The OpenGL Extension Wrangler, GLEW for short, is a library that handles
 # initiliazation of OpenGL extensions in a portable and simple way.  Once the
@@ -116,24 +116,28 @@ sudo apt-get install libxext-dev:i386
 
 #sudo apt-get -y --fix-missing
 
+# sudo apt-get -y -f install libpng-dev:i386
+#sudo apt-get -y -f install libjpeg8-dev:i386
+#$ sudo apt-get -y install libjpeg-dev:i386 libxft-dev:i386 libfontconfig1-dev:i386 libexpat1-dev:i386
 
-$ sudo apt-get -y install libjpeg-dev:i386 libxft-dev:i386 libfontconfig1-dev:i386 libexpat1-dev:i386
-Reading package lists... Done
-Building dependency tree
-Reading state information... Done
-Note, selecting 'libjpeg-turbo8-dev:i386' instead of 'libjpeg-dev:i386'
-libjpeg-turbo8-dev:i386 is already the newest version.
-The following packages were automatically installed and are no longer required:
-  linux-headers-3.5.0-23 linux-headers-3.5.0-23-generic
-Use 'apt-get autoremove' to remove them.
-The following extra packages will be installed:
-  libfreetype6-dev:i386 libxrender-dev:i386 zlib1g-dev:i386
-The following packages will be REMOVED:
-  libexpat1-dev libfontconfig1-dev libfreetype6-dev libxft-dev python-dev python2.7-dev
-The following NEW packages will be installed:
-  libexpat1-dev:i386 libfontconfig1-dev:i386 libfreetype6-dev:i386 libxft-dev:i386 libxrender-dev:i386
-  zlib1g-dev:i386
-0 upgraded, 6 newly installed, 6 to remove and 0 not upgraded.
+sudo apt-get -y install freeglut3-dev:i386 libpng-dev:i386 libjpeg-dev:i386 libxft-dev:i386 libfontconfig1-dev:i386 libexpat1-dev:i386
+
+#Reading package lists... Done
+#Building dependency tree
+#Reading state information... Done
+#Note, selecting 'libjpeg-turbo8-dev:i386' instead of 'libjpeg-dev:i386'
+#libjpeg-turbo8-dev:i386 is already the newest version.
+#The following packages were automatically installed and are no longer required:
+#  linux-headers-3.5.0-23 linux-headers-3.5.0-23-generic
+#Use 'apt-get autoremove' to remove them.
+#The following extra packages will be installed:
+#  libfreetype6-dev:i386 libxrender-dev:i386 zlib1g-dev:i386
+#The following packages will be REMOVED:
+#  libexpat1-dev libfontconfig1-dev libfreetype6-dev libxft-dev python-dev python2.7-dev
+#The following NEW packages will be installed:
+#  libexpat1-dev:i386 libfontconfig1-dev:i386 libfreetype6-dev:i386 libxft-dev:i386 libxrender-dev:i386
+#  zlib1g-dev:i386
+#0 upgraded, 6 newly installed, 6 to remove and 0 not upgraded.
 
 
 

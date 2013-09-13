@@ -79,6 +79,12 @@ sudo apt-get -y install libx11-dev libxrandr-dev
 # OpenGL:
 sudo apt-get -y install freeglut3-dev
 
+# ReadLine
+sudo apt-get -y install libreadline6-dev
+
+# GSL
+sudo apt-get -y install libgsl0-dev
+
 # The OpenGL Extension Wrangler, GLEW for short, is a library that handles
 # initiliazation of OpenGL extensions in a portable and simple way.  Once the
 # program initializes the library and checks the availability of extensions, it
@@ -105,7 +111,6 @@ sudo apt-get -y install libmotif-dev
 # This package contains the header files and static libraries for the XForms library.
 # Install this package if you want to develop programs using the XForms library.
 sudo apt-get -y install libforms-dev
-
 
 # GtkGLExt provides the GDK objects to support OpenGL rendering in GTK+,
 # and GtkWidget API add-ons to make GTK+ widgets OpenGL-capable.

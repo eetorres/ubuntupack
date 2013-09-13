@@ -49,6 +49,9 @@ sudo apt-get -y install chromium-browser
 # XFig
 sudo apt-get -y install xfig
 
+# Gnuplot
+ sudo apt-get -y install gnuplot
+
 # DjView
 sudo apt-get -y install djview
 
