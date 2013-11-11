@@ -42,6 +42,8 @@ sudo apt-get -y install kicad
 #PyCAD
 sudo apt-get -y install pythoncad
 
+# PYCAM
+
 
 # OpenSCAD
 sudo add-apt-repository ppa:chrysn/openscad

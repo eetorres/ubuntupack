@@ -50,7 +50,8 @@ sudo apt-get -y install chromium-browser
 sudo apt-get -y install xfig
 
 # Gnuplot
- sudo apt-get -y install gnuplot
+sudo apt-get -y install gnuplot
+# sudo apt-get install gnuplot-x11 
 
 # DjView
 sudo apt-get -y install djview
