@@ -108,7 +108,7 @@ sudo apt-get -y install ejecter
 # between the MSDOS (or Windows) format, which traditionally have CR/LF
 # (carriage return/line feed) pairs as their new line delimiters, and the
 # Unix format, which usually have LFs (line feeds) to terminate each line.
-udo apt-get -y install tofrodos
+#sudo apt-get -y install tofrodos
 
 #### Unity Utils ####
 

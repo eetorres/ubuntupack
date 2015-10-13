@@ -29,38 +29,38 @@ sudo apt-get update
 
 #Install utils:
 # text-mode full-screen file manager
-sudo apt-get -y install mc
+#sudo apt-get -y install mc
 # small and lightweight integrated development environment
-sudo apt-get -y install geany
+#sudo apt-get -y install geany
 # CLI editor
-sudo apt-get -y install vim
+#sudo apt-get -y install vim
 # Htop is an ncursed-based process viewer similar to top, but it allows one to scroll
 # the list vertically and horizontally to see all processes and their full command lines.
-sudo apt-get -y install htop
+#sudo apt-get -y install htop
 # Displays an indented directory tree, using the same color assignments as ls, via
 # the LS_COLORS environment variable
-sudo apt-get -y install tree
+#sudo apt-get -y install tree
 # OpenSSH, a free implementation of the Secure Shell protocol as specified by the IETF
 # secsh working group.
-sudo apt-get -y install openssh-server
+#sudo apt-get -y install openssh-server
 
 # Version control systems
 # Git designed to handle very large projects with speed and efficiency;
 #it is used for many high profile open source projects, most notably the Linux kernel.
-sudo apt-get -y install git-core
+#sudo apt-get -y install git-core
 # SVN the Subversion revision control system
-sudo apt-get -y install subversion
+#sudo apt-get -y install subversion
 # CVS is a version control system, which allows you to keep access to old versions
 # of files (usually source code)
-sudo apt-get -y install cvs
+#sudo apt-get -y install cvs
 # Mercurial is a fast, lightweight Source Control Management system designed for efficient
 # handling of very large distributed projects
-sudo apt-get -y install mercurial
+#sudo apt-get -y install mercurial
 
 # mpiexec, mpiexec.openmpi, mpirun, mpirun.openmpi,
 # ompi-clean, ompi-iof, ompi-ps, ompi-server, ompi_info,
 # orte-clean, orte-iof, orte-ps, orted, orterun
-sudo apt-get -y install openmpi-bin
+#sudo apt-get -y install openmpi-bin
 
 
 # Install C and C++ Compilers in Ubuntu

@@ -27,31 +27,98 @@
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get update
 
-#JabRef
-sudo apt-get -y install jabref
+#echo "Instaled linux kernels:"
+#dpkg -l linux-*
+#dpkg -l linux-* | awk '/^ii/{ print $2 }'
 
-# WinFF
-sudo apt-get -y install winff
+#echo "Actual kernel:"
+#uname -r | cut -f1,2 -d"-"
 
-# VLC
-sudo apt-get -y install vlc
+# echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf; sudo apt-get -y update
 
-# Desktop recorder
-sudo apt-get -y install gtk-recordmydesktop
+echo "================Installing Software================"
 
-# Simple Scan
-sudo apt-get -y install simple-scan
+# BackInTime
+#sudo apt-get -y install backintime-gnome
 
-# XSane
-sudo apt-get -y install xsane
-sudo apt-get -y install gscan2pdf
-sudo apt-get -y install gv gocr
+# Texmaker
+#sudo apt-get -y install texmaker
 
-# Okular
-sudo apt-get -y install okular
+# Chromium
+#sudo apt-get -y install chromium-browser
 
-# kile
-sudo apt-get -y install kile
+# XFig
+#sudo apt-get -y install xfig
 
-# It allows you to download a World Wide Web site from the Internet to a local directory
-sudo apt-get -y install httrack
+# DjView
+#sudo apt-get -y install djview
+
+# Gimp
+#sudo apt-get -y install gimp
+
+# Gmount-iso
+sudo apt-get -y install gmountiso
+
+# gFTP
+sudo apt-get -y install gftp
+
+# GNOME Do
+# sudo apt-get -y install gnome-do
+
+# Transmission
+sudo apt-get -y install transmission
+
+# DropBox
+#sudo apt-get -y install nautilus-dropbox
+
+# Meld Diff Viewer
+sudo apt-get -y install meld
+
+# Shutter
+sudo apt-get -y install shutter
+
+# GNOME Tweak Tool
+#sudo apt-get -y install gnome-tweak-tool
+
+# Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+#sudo apt-get -y install gtk2-engines-pixbuf
+
+# GConf-Editor
+#sudo apt-get -y install gconf-editor
+
+# Run Windows applications on Linux (http://www.winehq.org/)
+#echo -n "Do you want to install the latest wine? [y/n]: "
+#read
+#if [ "$REPLY" = "y" ]
+#then
+#  sudo add-apt-repository -y ppa:ubuntu-wine/ppa
+#  sudo apt-get -y update
+#  sudo apt-get -y install wine1.5
+#else
+#  sudo apt-get -y install wine
+#fi
+
+# Install Ubuntu Restricted Extras
+sudo apt-get -y install ubuntu-restricted-extras
+
+# Ejecter: to easily and safely unmount external devices
+sudo apt-get -y install ejecter
+
+#  text file conversion utility that converts ASCII and Unicode UTF-8 files
+# between the MSDOS (or Windows) format, which traditionally have CR/LF
+# (carriage return/line feed) pairs as their new line delimiters, and the
+# Unix format, which usually have LFs (line feeds) to terminate each line.
+sudo apt-get -y install tofrodos
+
+#### Unity Utils ####
+
+# Unity utilities lens
+#sudo apt-get -y install unity-lens-utilities
+
+# xfig fonts
+sudo apt-get -y install gsfonts-x11
+
+# Spanish spell check
+#sudo apt-get -y install myspell-es
+
+echo "================Done================"
