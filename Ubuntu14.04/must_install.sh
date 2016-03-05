@@ -55,12 +55,12 @@ sudo apt-get -y install subversion
 sudo apt-get -y install cvs
 # Mercurial is a fast, lightweight Source Control Management system designed for efficient
 # handling of very large distributed projects
-sudo apt-get -y install mercurial
+#sudo apt-get -y install mercurial
 
 # mpiexec, mpiexec.openmpi, mpirun, mpirun.openmpi,
 # ompi-clean, ompi-iof, ompi-ps, ompi-server, ompi_info,
 # orte-clean, orte-iof, orte-ps, orted, orterun
-sudo apt-get -y install openmpi-bin
+# sudo apt-get -y install openmpi-bin
 
 
 # Install C and C++ Compilers in Ubuntu

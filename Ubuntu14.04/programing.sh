@@ -84,7 +84,7 @@ sudo apt-get -y install freeglut3-dev
 # program initializes the library and checks the availability of extensions, it
 # can safely call the entry points defined by the extension.  Currently GLEW
 # supports almost all the extensions found in the OpenGL extension registry[1].
-sudo apt-get -y install libglew1.5-dev
+#sudo apt-get -y install libglew1.5-dev
 
 # Image libraries
 sudo apt-get -y install libjpeg-dev libpng-dev libz-dev
@@ -100,11 +100,11 @@ sudo apt-get -y install libxft-dev
 # Everything you need to build Motif applications with Open Motif.
 # Includes header files, static libraries, the manual pages for the Motif API
 # and uil (user interface language compiler)
-sudo apt-get -y install libmotif-dev
+#sudo apt-get -y install libmotif-dev
 
 # This package contains the header files and static libraries for the XForms library.
 # Install this package if you want to develop programs using the XForms library.
-sudo apt-get -y install libforms-dev
+#sudo apt-get -y install libforms-dev
 
 
 # GtkGLExt provides the GDK objects to support OpenGL rendering in GTK+,
